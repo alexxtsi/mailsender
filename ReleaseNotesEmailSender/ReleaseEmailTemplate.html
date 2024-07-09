@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .title {
+            text-align: center;
+            color: #444444;
+            padding: 3px;
+        }
+
+        .header {
+            text-align: center;
+            color: #666666;
+            padding-bottom: 20px;
+        }
+
+        .table {
+            font-size: 11px;
+            justify-content: left;
+            width: 65%;
+            border-collapse: collapse;
+            background-color: #f8f8f8;
+        }
+
+        th, td {
+            padding: 5px;
+            border: 1px solid #dddddd;
+        }
+
+        th {
+            background-color: #c9dadc;
+        }
+
+        .rowHeader {
+            background-color: #c9dadc;
+        }
+
+        td.used {
+            background-color: #90ee90;
+        }
+
+        td.idle {
+            background-color: #ffff99;
+        }
+
+        .footer {
+            text-align: center;
+            color: #999999;
+            padding-top: 30px;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title"> {{TpName}} </h1>
+        <br />
+        {{ObjectiveTable}}
+        <h2> Test Program Summary Information </h2>
+        <br />
+        {{SummaryTable}}
+        <h2> Test Program Files for Loadings </h2>
+        <br />
+        {{FilesTable}}
+        <h2> Metrics </h2>
+        <br />
+        {{TestTimeTable}}
+        <h2> Supported Device and Locations </h2>
+        <br />
+        {{BomsTable}}
+    </div>
+</body>
+</html>

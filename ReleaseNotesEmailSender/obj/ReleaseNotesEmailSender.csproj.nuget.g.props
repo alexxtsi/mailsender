@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\atsigane\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\atsigane\.nuget\packages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)traceapi\10.2.0\contentFiles\any\netstandard2.1\krb5.conf" Condition="Exists('$(NuGetPackageRoot)traceapi\10.2.0\contentFiles\any\netstandard2.1\krb5.conf')">
+      <NuGetPackageId>TraceApi</NuGetPackageId>
+      <NuGetPackageVersion>10.2.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>krb5.conf</TargetPath>
+      <Private>True</Private>
+      <Link>krb5.conf</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)traceapi\10.2.0\contentFiles\any\netstandard2.1\sqlnet.ora" Condition="Exists('$(NuGetPackageRoot)traceapi\10.2.0\contentFiles\any\netstandard2.1\sqlnet.ora')">
+      <NuGetPackageId>TraceApi</NuGetPackageId>
+      <NuGetPackageVersion>10.2.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>sqlnet.ora</TargetPath>
+      <Private>True</Private>
+      <Link>sqlnet.ora</Link>
+    </None>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\atsigane\.nuget\packages\microsoft.visualstudio.threading.analyzers\16.4.45</PkgMicrosoft_VisualStudio_Threading_Analyzers>
+    <PkgStyleCop_Analyzers Condition=" '$(PkgStyleCop_Analyzers)' == '' ">C:\Users\atsigane\.nuget\packages\stylecop.analyzers\1.1.118</PkgStyleCop_Analyzers>
+  </PropertyGroup>
+</Project>
